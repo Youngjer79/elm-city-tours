@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+  <title>Elm City Tours| About Us</title>
+  <style>
+  /* Navigation */
+
+.navbar {
+  background: transparent !important;
+}
+
+#navbarNav .navbar-toggler {
+  background-color: #4b855e !important;
+}
+.logo img {
+  height: 40px;
+  width: 40px;
+}
+
+.title {
+  color: green;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+ul li a {
+  font-size: 1.2rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #fff !important;
+}
+
+/* Header */
+#header{
+  
+  filter: sepia(30%);
+  background-image: url(../img/welcome.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+#about h1 {
+  background-color: #fff;
+  mix-blend-mode: screen;
+  box-sizing: border-box;
+  font-family: tahoma;
+  font-size: calc(3rem + 7.24vw);
+  font-weight: 700;
+  letter-spacing: -0.25rem;
+  line-height: 0.9;
+  margin: 0;
+  text-align: right;
+  text-transform: uppercase;
+}
+
+.content {
+  box-sizing: border-box;
+  padding: 0 1rem 1rem;
+  width: 40vw;
+}
+
+#about h4 {
+  font-size: 3.5rem;
+  color: #4b855e;
+}
+
+#about p {
+  font-size: 1.2rem;
+  color: #4b855e;
+}
+
+@media (min-width: 40em) {
+  .content {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    width: 27wv;
+  }
+  .text {
+    height: 100vh;
+    width: auto;
+  }
+  .flat {
+    background-color: #fff;
+    color: #4b855e;
+    height: 90%;
+  }
+  .flat p {
+    margin: auto 0;
+    padding: 0;
+    font-family: tahoma;
+  }
+}
+
+  </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+          <a class="navbar-brand" href="#"
+            ><span class="title">Elm City Tours</span></a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="#"
+                  >Home<span class="sr-only">(current)</span></a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about.html"
+                  >About</i
+                ></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Things To Do</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Places To Eat</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <header id="about">
+          <main>
+            <div class="bg">
+              <div class="text">
+                <h1 class="content">About ECT</h1>
+                <div class="flat content">
+                    <h4>Unique location to enjoy your life</h4>
+                   <p class="introduction">At Elm City Tours this is your guide to what the wonderful city of New Haven have to offer.New Haven, CT is home to beautiful parks, excellent museums, unique attractions and a diverse choice of restaurants.The home of Yale University, the best pizza in the country, and creators of the hamburger. New Haven is an unique place with unique people of all backgrounds that make up the uniqueness of the city.</p> 
+                </div>
+              </div>
+            </div>
+          </main>
+        </header>
+       <!-- End About Section -->
+</body>
+</html>
